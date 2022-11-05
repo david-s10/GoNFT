@@ -298,6 +298,7 @@ a {
     position: absolute;
     right: 0;
     top: 607px;
+    z-index: 1;
  }
 
  @media (max-width: 1750px) {
@@ -324,6 +325,10 @@ a {
         font-size: 90px;
     }
  }
+    .background-start__bob {
+        max-width: 60%;
+        top: 500px;
+    }
 
  @media (max-width: 1000px) {
     .start__content {
@@ -375,6 +380,10 @@ a {
     }
     .start__subtitle {
         font-size: 40px;
+    }
+    .background-start__bob {
+        max-width: 60%;
+        top: 400px;
     }
  }
  @media (max-width: 500px) {
@@ -1231,6 +1240,9 @@ a {
     }
     .start-top-footer__btn {
         margin: 0;
+    }
+    .end-top-footer__socials {
+        gap: 20px 40px;
     }
     .end-middle-footer {
         gap: 20px 30px;
